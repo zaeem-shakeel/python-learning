@@ -1,4 +1,5 @@
 class order:
+    pass
 #     def __init__(self,items,price):
 #         self.items=items
 #         self.price=price
@@ -9,8 +10,3 @@ class order:
     
 # odr1=("cake",50)
 # odr2=("tea",10)
-
-
-
-# print(odr1>odr2) #true
-
