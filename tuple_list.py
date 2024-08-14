@@ -25,12 +25,15 @@ else:
     
     """
     
-grade=("C","A","B","B","A","D","A")
-print(grade.count("A"))
+# grade=("C","A","B","B","A","D","A")
+# print(grade.count("A"))
     
     
     
-grade=["C","A","B","B","A","D","A"]
-grade.sort()
-print(grade)
+# grade=["C","A","B","B","A","D","A"]
+# grade.sort()
+# print(grade)
     
+    
+lst=(i*i for i in range(5))
+print(lst)
