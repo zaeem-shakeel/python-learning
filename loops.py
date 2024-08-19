@@ -82,3 +82,10 @@ for i in range(1 , n+1):
  fact*=i
   
  print("factorizal=", fact)
+ 
+ 
+#enumerate
+
+fruits=["mangos","bannana","apple"]
+for index,fruit in enumerate(fruits):
+  print(f"{index}:{fruit}")
