@@ -16,7 +16,7 @@ for i in range(len(questions)):
     reply=int(input("Enter your answerse 1-4 or 0 to quit:"))
     
     if(reply==0):
-        money==levels[i-1]
+        money==levels[i-1] if i>0 else 0
         break 
     if(reply==question[-1]):
         print(f"Correct answers , your have won.{levels[i]}")
@@ -30,7 +30,9 @@ for i in range(len(questions)):
         money==100000
     elif i==13 :
         money==10000000
-    print(f"you take money home is {money}")    
+    print(f"You take home Rs {levels[i]}.")
+
+print(f"Final amount: Rs {levels[i]}")
         
                 
                 
