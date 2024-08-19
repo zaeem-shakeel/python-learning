@@ -49,6 +49,14 @@ print(f"Final amount: Rs {levels[i]}")
 #     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
 #     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
 #     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
+#     ["Which language was used to create Facebook?", "Python", "French", "JavaScript", "PHP", "None", 4],
 # ]
 # levels = [1000, 2000, 5000, 7000, 10000, 40000, 500000, 70000, 80000, 100000, 320000, 5000000, 700000, 10000000]
 # money = 0
@@ -72,11 +80,11 @@ print(f"Final amount: Rs {levels[i]}")
 #         print("Wrong answer.")
 #         break
 
-#     if i == 4:
+#     if (i == 4):
 #         money = 10000
-#     elif i == 9:
+#     elif (i == 9):
 #         money = 100000
-#     elif i == 13:
+#     elif (i == 13):
 #         money = 10000000
 
 #     print(f"You take home Rs {money}.")
