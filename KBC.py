@@ -3,6 +3,14 @@ questions=[
            ["which language used to create fb?","python","French","javascript","php","none",4],  
            ["which language used to create fb?","python","French","javascript","php","none",4],  
            ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
+           ["which language used to create fb?","python","French","javascript","php","none",4],  
            ]
 levels=[1000,2000,5000,7000,10000,40000,500000,70000,80000,100000,320000,5000000,700000,10000000]
 
