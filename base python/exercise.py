@@ -1,6 +1,8 @@
+# true value means 3 to 16 code run
+
 st = input("enter  message :")
 words = st.split(" ")
-coding = False
+coding = True  # True means code exist to 1 to 16 and Flse means code exists to 18 to 23
 if coding:
     nwords =[]
     for word in words:
@@ -19,3 +21,5 @@ else:
         stnew = stnew[-1] + stnew[:-1]
         nwords.append(stnew)
     print(" ".join(nwords))
+
+
