@@ -35,5 +35,46 @@ else:
 # print(grade)
     
     
-lst=(i*i for i in range(5))
-print(lst)
+# lst=(i*i for i in range(5))
+# print(lst)
+
+
+
+#Map  methode
+def cube(x):
+    return x*x*x
+
+# print(cube(2))
+# l=[1,3,4,5,6]
+# A=[]
+# for items in l:
+#     A.append(cube(items))
+#     print(A)
+    
+    
+# l=[1,3,5,9,5,4,6]
+
+# newl=list(map( cube,l))
+# print(newl)
+
+
+
+#FILTER method
+# def new(x):
+#     return x>4
+# t=[1,3,4,5,7,8,9]
+
+# newe=list(filter(new,t))
+# print(newe)
+
+
+
+#REDUCE method
+from functools import reduce
+num=[2,3,5,6,7,8,9,1]
+def sum(x,y):
+    return x+y
+
+numl= reduce(sum,num)
+
+print(numl)
